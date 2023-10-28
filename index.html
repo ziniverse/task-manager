@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Todo-list App</title>
+  </head>
+  <body>
+    <h1>TODO List</h1>
+    <h3>Hi <input class="name" type="text" id="name" placeholder="Name here" /></h3>
+    <button id="saveName">Save Name</button>
+    <div class="category1">
+      <button id="studies"
+        ><img class="img1" src="fmh3_6uhn_190123.jpg" /> Studies</button
+      >
+    </div>
+    <div class="category2">
+      <button id="work"
+        ><img class="img2" src="27117.jpg" /> Work</button
+      >
+    </div>
+    <div class="category3">
+      <button id="household-chores"
+        ><img class="img3" src="18y0_3hf1_210621.jpg" /> Household Chores</button
+      >
+    </div>
+    <div class="category4">
+      <button id="groceries"
+        ><img class="img4" src="wc6u_1kss_211223.jpg" /> Groceries</button
+      >
+    </div>
+    <div class="category5">
+      <button id="personal"
+        ><img class="img5" src="ONIVGG0.jpg" /> Personal</button
+      >
+    </div>
+
+<!-- Modal for Studies -->
+<div id="modal-studies" class="modal">
+  <div class="modal-content">
+    <section id="studies-section">
+      <span class="close" id="close-studies">&times;</span>
+      <h2>STUDIES</h2>
+      <input type="text" id="studiesTask" placeholder="Add a task...">
+      <input type="datetime-local" id="studiesTaskDate">
+      <button class="btn-click" onclick="addTask('studiesTask', 'studiesTaskDate')">Add Task</button>
+      <ul id="studiesTasks"></ul>
+    </section>
+  </div>
+</div>
+
+<!-- Modal for Work -->
+<div id="modal-work" class="modal">
+  <div class="modal-content">
+    <section id="work-section">
+      <span class="close" id="close-work">&times;</span>
+      <h2>wORK</h2>
+      <input type="text" id="workTask" placeholder="Add a task...">
+      <input type="datetime-local" id="workTaskDate">
+      <button class="btn-click" onclick="addTask('workTask', 'workTaskDate')">Add Task</button>
+      <ul id="workTasks"></ul>
+    </section>
+  </div>
+</div>
+<div id="modal-household-chores" class="modal">
+  <div class="modal-content">
+    <section id="household-chores-section">
+      <span class="close" id="close-household-chores">&times;</span>
+      <h2>HOUSEHOLD CHORES</h2>
+      <input type="text" id="household-chores-Task" placeholder="Add a chore...">
+      <input type="datetime-local" id="household-chores-TaskDate">
+      <button onclick="addTask('household-chores-Task', 'household-chores-TaskDate')">Add Chore</button>
+      <ul id="household-chores-Tasks"></ul>
+    </section>
+  </div>
+</div>
+
+<div id="modal-groceries" class="modal">
+  <div class="modal-content">
+    <section id="groceries-section"> 
+      <span class="close" id="close-groceries">&times;</span>
+      <h2>GROCERIES</h2>
+      <input type="text" id="groceriesTask" placeholder="Add a task...">
+      <input type="datetime-local" id="groceriesTaskDate">
+      <button onclick="addTask('groceriesTask', 'groceriesTaskDate')">Add Task</button>
+      <ul id="groceriesTasks"></ul>
+    </section>
+  </div>
+</div>
+
+<div id="modal-personal" class="modal">
+  <div class="modal-content">
+    <section id="personal-section"> 
+      <span class="close" id="close-personal">&times;</span>
+      <h2>PERSONAL</h2>
+      <input type="text" id="personalTask" placeholder="Add a task...">
+      <input type="datetime-local" id="personalTaskDate">
+      <button onclick="addTask('personalTask', 'personalTaskDate')">Add Task</button>
+      <ul id="personalTasks"></ul>
+    </section>
+  </div>
+</div>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>

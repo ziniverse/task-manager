@@ -1,0 +1,245 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+
+h1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+h2{
+    font-size: 150%;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+body {
+    min-height: 100vh;
+    color: #2e2e2e;
+    font-family: "Inter", sans-serif;
+    background-color: #d59ed4;
+}
+.name {
+    width: 240px;
+    height: 40px;
+    border-radius: 20px; 
+    font-size: 15px;
+}
+.category1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#studies {
+    width: 1000px;
+    height: 100px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 120%;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.img1{
+    width: 30px;
+    height: 30px;
+}
+.img2{
+    width: 40px;
+    height: 40px;
+}
+.category2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#work {
+    width: 1000px;
+    height: 100px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 120%;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.img3{
+    width: 40px;
+    height: 40px;
+}
+.category3{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#household-chores {
+    width: 1000px;
+    height: 100px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 120%;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.img4{
+    width: 40px;
+    height: 40px;
+}
+.category4{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#groceries {
+    width: 1000px;
+    height: 100px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 120%;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.img5{
+    width: 40px;
+    height: 40px;
+}
+.category5{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#personal {
+    width: 1000px;
+    height: 100px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 120%;
+    padding: 10px 20px;
+    
+    cursor: pointer;
+}
+/* Your existing CSS code remains the same. */
+
+/* Style for the modals */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 20px;
+    border: none;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: black;
+}
+#studies-section {
+    font-family: "Inter", sans-serif;
+  }
+#studiesTask {
+    width: 600px;
+    height: 80px;
+    border-radius: 20px;
+    background-color: #94d6db;
+}
+#studiesTaskDate {
+    width: 500px;
+    height: 80px;
+    border-radius: 20px;
+    background-color: #aaa;
+}
+.btn-click {
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+#work-section {
+    font-family: "Inter", sans-serif;
+  }
+#workTask {
+    width: 600px;
+    height: 80px;
+    border-radius: 20px;
+    background-color: #e69c6c;
+}
+#workTaskDate {
+    width: 500px;
+    height: 80px;
+    border-radius: 20px;
+    background-color: #aaa;
+}
+#household-chores-section {
+    font-family: "Inter", sans-serif;
+  }
+#household-chores-Task {
+    width: 600px;
+    height: 80px;
+    border-radius: 20px;
+    background-color: #6ce676;
+}
+#household-chores-TaskDate {
+    width: 500px;
+    height: 80px;
+    border-radius: 20px;
+    background-color: #aaa;
+}
+#groceries-section {
+    font-family: "Inter", sans-serif;
+  }
+#groceriesTask {
+    width: 600px;
+    height: 80px;
+    border-radius: 20px;
+    background-color: #90a0aa;
+}
+#groceriesTaskDate {
+    width: 500px;
+    height: 80px;
+    border-radius: 20px;
+    background-color: #aaa;
+}
+#personal-section {
+    font-family: "Inter", sans-serif;
+  }
+#personalTask {
+    width: 600px;
+    height: 80px;
+    border-radius: 20px;
+    background-color: #6ce68f;
+}
+#personalTaskDate {
+    width: 500px;
+    height: 80px;
+    border-radius: 20px;
+    background-color: #aaa;
+}
